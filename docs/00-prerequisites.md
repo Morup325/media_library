@@ -14,6 +14,7 @@ While the backend can run entirely inside Docker, having these tools installed l
 * **[PHP 8.2+](https://www.php.net/)**: Required locally for IDE intelligence (e.g., VS Code Intelephense).
 * **[Composer](https://getcomposer.org/)**: PHP dependency manager.
 * **[Node.js (v20+)](https://nodejs.org/) & NPM**: Required to compile frontend assets using Vite (`npm run dev`).
+* **[Visual Studio Code](https://code.visualstudio.com/)**: The recommended code editor. We suggest installing the *PHP Intelephense*, *Laravel Extra Intellisense*, and *Docker* extensions for the best experience.
 
 ## 3. DevOps & Kubernetes
 These tools are required when testing the deployment architecture and CI/CD pipelines locally.
@@ -21,3 +22,4 @@ These tools are required when testing the deployment architecture and CI/CD pipe
 * **[Minikube](https://minikube.sigs.k8s.io/)**: Spins up a local Kubernetes cluster to test deployments before pushing to production.
 * **[kubectl](https://kubernetes.io/docs/tasks/tools/)**: The command-line tool for interacting with the Kubernetes cluster.
 * **[GitHub CLI (`gh`)](https://cli.github.com/)** *(Optional)*: Useful for interacting with GitHub Actions and managing repositories directly from the terminal.
+* **[ArgoCD CLI](https://argo-cd.readthedocs.io/en/stable/cli_installation/)**: The command-line tool used to manage and interact with the ArgoCD instance running inside our Kubernetes cluster.
